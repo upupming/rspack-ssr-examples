@@ -1,0 +1,39 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx scripts/dev.js",
+    "serve": "tsx scripts/dev.js",
+    "build": "tsx scripts/build.js",
+    "preview": "tsx scripts/preview.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "react-refresh": "0.14.0",
+    "@rspack/cli": "0.4.2",
+    "@rspack/core": "0.4.2",
+    "@rspack/dev-server": "0.4.2",
+    "is-object": "1.0.2",
+    "tsx": "4.6.2"
+  },
+  "description": "React SSR examples for Rspack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upupming/rspack-ssr-examples.git"
+  },
+  "keywords": [
+    "Rspack",
+    "SSR"
+  ],
+  "author": "upupming",
+  "bugs": {
+    "url": "https://github.com/upupming/rspack-ssr-examples/issues"
+  },
+  "homepage": "https://github.com/upupming/rspack-ssr-examples#readme",
+  "license": "MIT"
+}
