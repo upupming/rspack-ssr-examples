@@ -12,8 +12,6 @@ Rspack Server-Side Rendering minimal examples, fully-extensible.
 
 See deployed example: https://rspack-vanilla-example.vercel.app/
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fupupming%2Frspack-ssr-examples%2Ftree%2Fmain%2Fpackages%2Fvanilla)
-
 Basic example using only vanilla JavaScript.
 
 Two entry files are constructed for running in the server ([entry-server.ts](./packages/vanilla/src/entry-server.ts)) and client ([entry-client.ts](./packages/vanilla/src/entry-client.ts)).
@@ -26,15 +24,11 @@ By running `pnpm dev`, `pnpm build` and `pnpm preview` in the directory, you can
 
 See deployed example: https://rspack-vue-example.vercel.app/
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fupupming%2Frspack-ssr-examples%2Ftree%2Fmain%2Fpackages%2Fvue)
-
 Basic Vue SSR example, add Vue support to vanilla example.
 
 ### react
 
 See deployed example: https://rspack-react-example.vercel.app/
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fupupming%2Frspack-ssr-examples%2Ftree%2Fmain%2Fpackages%2Freact)
 
 Basic React SSR example, add React support to vanilla example.
 
