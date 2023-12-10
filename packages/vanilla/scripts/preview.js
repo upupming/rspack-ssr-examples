@@ -13,6 +13,8 @@ async function main() {
         publicPath: '/',
       },
       devMiddleware: { serverSideRender: true },
+      // Allow CodeSandbox to access dev server
+      allowedHosts: 'all',
       setupMiddlewares(middlewares, devServer) {
         if (!devServer) {
           throw new Error('webpack-dev-server is not defined');

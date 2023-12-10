@@ -3,9 +3,6 @@
 import { rspack } from '@rspack/core';
 import { RspackDevServer } from '@rspack/dev-server';
 import path from 'path';
-import fs from 'fs';
-import { normalizeAssets, requireFromString } from './util';
-import config from '../rspack.config';
 
 async function main() {
   const compiler = rspack({ entry: {} });
@@ -16,6 +13,8 @@ async function main() {
         publicPath: '/',
       },
       devMiddleware: { serverSideRender: true },
+      // Allow CodeSandbox to access dev server
+      allowedHosts: 'all',
       setupMiddlewares(middlewares, devServer) {
         if (!devServer) {
           throw new Error('webpack-dev-server is not defined');

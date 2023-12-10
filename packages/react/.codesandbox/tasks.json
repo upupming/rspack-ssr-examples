@@ -1,0 +1,10 @@
+{
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
+  "tasks": {
+    "run-dev": {
+      "name": "App",
+      "command": "pnpm dev",
+      "runAtStart": true
+    }
+  }
+}

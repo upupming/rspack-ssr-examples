@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "public": false,
+  "github": {
+    "enabled": false
+  },
+  "builds": [
+    {
+      "src": "./scripts/preview.vercel.js",
+      "use": "@vercel/node",
+      "config": {
+        "//": "https://github.com/vercel/vercel/issues/1788#issuecomment-485629244",
+        "includeFiles": [
+          "dist/**/*",
+          "scripts/**/*"
+        ],
+        "bundle": false,
+        "maxLambdaSize": "50mb"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/scripts/preview.vercel.js"
+    }
+  ]
+}
