@@ -1,5 +1,9 @@
 # rspack-ssr-examples
 
+<!-- https://codesandbox.io/docs/tutorial/convert-browser-sandbox-cloud#convert-into-a-devbox-via-url -->
+<!-- 必须自己先 Import from GitHub，别人打开才是 devbox，否则别人打开是 sandbox -->
+[![Edit](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/upupming/rspack-ssr-examples)
+
 Rspack Server-Side Rendering minimal examples, fully-extensible.
 
 ## Examples
@@ -7,8 +11,7 @@ Rspack Server-Side Rendering minimal examples, fully-extensible.
 ### vanilla
 
 See deployed example: https://rspack-vanilla-example.vercel.app/
-<!-- https://codesandbox.io/docs/tutorial/convert-browser-sandbox-cloud#convert-into-a-devbox-via-url -->
-[![Edit](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/upupming/rspack-ssr-examples/tree/main/packages/vanilla)
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fupupming%2Frspack-ssr-examples%2Ftree%2Fmain%2Fpackages%2Fvanilla)
 
 Basic example using only vanilla JavaScript.
@@ -23,7 +26,6 @@ By running `pnpm dev`, `pnpm build` and `pnpm preview` in the directory, you can
 
 See deployed example: https://rspack-vue-example.vercel.app/
 
-[![Edit](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/upupming/rspack-ssr-examples/tree/main/packages/vue)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fupupming%2Frspack-ssr-examples%2Ftree%2Fmain%2Fpackages%2Fvue)
 
 Basic Vue SSR example, add Vue support to vanilla example.
@@ -32,7 +34,6 @@ Basic Vue SSR example, add Vue support to vanilla example.
 
 See deployed example: https://rspack-react-example.vercel.app/
 
-[![Edit](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/upupming/rspack-ssr-examples/tree/main/packages/react)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fupupming%2Frspack-ssr-examples%2Ftree%2Fmain%2Fpackages%2Freact)
 
 Basic React SSR example, add React support to vanilla example.

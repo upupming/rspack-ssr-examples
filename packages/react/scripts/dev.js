@@ -58,7 +58,6 @@ async function main() {
           const jsonWebpackStats = devMiddleware.stats.toJson();
           const jsonWebpackStatsClient = jsonWebpackStats.children[0];
           const jsonWebpackStatsServer = jsonWebpackStats.children[1];
-          console.log('devServer', devServer);
           const { assetsByChunkName, outputPath } = jsonWebpackStatsClient;
 
           if (req.originalUrl === '/') {
